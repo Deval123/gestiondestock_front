@@ -1,0 +1,13 @@
+export { ApiService } from './services/api.service';
+export { Gestiondestockv1commandeClientsService } from './services/gestiondestockv-1commande-clients.service';
+export { Gestiondestockv1CommandeFournisseursService } from './services/gestiondestockv-1commande-fournisseurs.service';
+export { Gestiondestockv1articlesService } from './services/gestiondestockv-1articles.service';
+export { Gestiondestockv1categoryService } from './services/gestiondestockv-1category.service';
+export { Gestiondestockv1clientsService } from './services/gestiondestockv-1clients.service';
+export { Gestiondestockv1entrepriseService } from './services/gestiondestockv-1entreprise.service';
+export { Gestiondestockv1fournisseursService } from './services/gestiondestockv-1fournisseurs.service';
+export { Gestiondestockv1ligneVenteService } from './services/gestiondestockv-1ligne-vente.service';
+export { Gestiondestockv1mvtStockService } from './services/gestiondestockv-1mvt-stock.service';
+export { Gestiondestockv1photosService } from './services/gestiondestockv-1photos.service';
+export { Gestiondestockv1utilisateursService } from './services/gestiondestockv-1utilisateurs.service';
+export { Gestiondestockv1ventesService } from './services/gestiondestockv-1ventes.service';

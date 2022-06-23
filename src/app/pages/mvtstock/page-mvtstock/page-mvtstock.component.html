@@ -1,0 +1,50 @@
+<div class="col">
+  <div class="row m-3">
+    <div class="col-md-8 p-0">
+      <h1>Mouvement du stock</h1>
+    </div>
+    <div class="col-md-4 text-end">
+      <app-boutton-action
+        [isImporterVisible]="false"
+        [isNouveauVisible]="false"
+      ></app-boutton-action>
+    </div>
+  </div>
+  <div class="col m-3">
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="m-lg-3" id="headingOne">
+          <button class="col-md-12 mb-lg-3 mb-3 mt-3 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <app-detail-mvt-stock-article></app-detail-mvt-stock-article>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample"
+             style="max-height: 300px; overflow-y: scroll;" >
+          <div class="accordion-body">
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+            <app-detail-mvt-stock></app-detail-mvt-stock>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-md-12 text-center">
+      <app-pagination></app-pagination>
+    </div>
+  </div>
+</div>
+
